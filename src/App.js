@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Map from "./components/Map";
 import CountriesContext from "./store/countries-context";
 import { getAllCoordinates, getAllCountries, getAllFlags } from "./utils/api";
+
 import * as CONSTANTS from "./utils/constants";
 
 const App = () => {
